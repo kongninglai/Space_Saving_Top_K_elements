@@ -2,6 +2,8 @@
 #define FIND_FREQ_ITEMS_H
 
 #include "uthash.h"
+
+#define WORD_SIZE 20
 // Sorted double linked list buckets, stores the count value of elemnts
 struct Buckets {
     struct Buckets* next;
@@ -12,11 +14,11 @@ struct Buckets {
 };
 
 struct Elements {
-    struct Elements* next;
-    struct Buckets* bucket;
+    // struct Elements* next;
+    // struct Buckets* bucket;
 
-    char name[10];
-    int id;
+    char word[WORD_SIZE];
+    int count;
     UT_hash_handle hh;         /* makes this structure hashable */
 };
 

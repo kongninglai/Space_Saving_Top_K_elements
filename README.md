@@ -9,5 +9,7 @@ Hash function for words: uthash
 https://github.com/troydhanson/uthash
 
 ## Logs
-2024/04/04: Finish file reading and tokenization. Next step is hash the tokenized word.
+2024/04/04: 
+- Finish file reading and tokenization. Next step is hash the tokenized word.
+- Finish hash function. Next we can begin to implement the algorithm.
 
