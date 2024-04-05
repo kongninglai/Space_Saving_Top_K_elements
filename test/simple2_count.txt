@@ -1,0 +1,9 @@
+test: 4
+this: 2
+is: 2
+hello: 1
+world: 1
+a: 1
+file: 1
+another: 1
+last: 1
