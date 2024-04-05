@@ -13,3 +13,7 @@ https://github.com/troydhanson/uthash
 - Finish file reading and tokenization. Next step is hash the tokenized word.
 - Finish hash function. Next we can begin to implement the algorithm.
 
+2024/04/05:
+- Finish algorithm. Simple test passed. Next step is to create test database
+- and implement the argument parser.
+
