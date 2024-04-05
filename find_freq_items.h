@@ -5,7 +5,10 @@
 
 #define WORD_SIZE 20
 #define INT_MAX 2147483647
-#define CAPACIRT 7
+#define CAPACIRT 100
+
+
+char* delim = " *—.,-_:?!/()\"\'";
 // Sorted double linked list buckets, stores the count value of elemnts
 struct Buckets {
     struct Buckets* next;
